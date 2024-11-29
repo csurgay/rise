@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+}
+h1, h2 {
+    color: #003366;
+}
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+a:hover {
+    color: #0056b3;
+}
+
+/* Layout */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.hero {
+    background: linear-gradient(to right, #003366, #006699);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.hero-text {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #00cc99;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+.cta-button:hover {
+    background: #009973;
+}
+
+.about, .services {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+.about h2, .services h2 {
+    margin-bottom: 20px;
+}
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+.services li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer a {
+    color: #00cc99;
+}
+.footer a:hover {
+    color: #007bff;
+}
