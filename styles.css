@@ -9,7 +9,7 @@ body {
 }
 h1, h2, h3 {
     margin: 0;
-    color: #003366;
+    color: #fff;
 }
 a {
     color: #007BFF;
@@ -22,7 +22,6 @@ a:hover {
 /* Header Styles */
 .top-nav {
     background: #fff;
-    border-bottom: 1px solid #ddd;
     padding: 15px 0;
 }
 .top-nav .container {
@@ -52,18 +51,12 @@ a:hover {
     font-size: 1rem;
 }
 
-/* Light Green Bar */
-.light-green-bar {
-    height: 5px;
-    background: #d9f2e6;
-}
-
 /* Hero Section */
 .hero {
-    background: url('https://source.unsplash.com/1600x900/?business,technology') no-repeat center center/cover;
+    background: #1bb1e7;
     color: white;
     text-align: center;
-    padding: 150px 20px;
+    padding: 100px 20px;
 }
 .hero h1 {
     font-size: 3rem;
@@ -76,14 +69,14 @@ a:hover {
 .hero .cta-button {
     display: inline-block;
     padding: 15px 30px;
-    background: #00cc99;
+    background: #003366;
     color: white;
     border-radius: 5px;
     font-size: 1.2rem;
     transition: background 0.3s ease;
 }
 .hero .cta-button:hover {
-    background: #009973;
+    background: #002244;
 }
 
 /* Section Styles */
@@ -121,7 +114,7 @@ section {
     margin: 5px 0;
 }
 .footer-right a {
-    color: #00cc99;
+    color: #1bb1e7;
     text-decoration: none;
 }
 .footer-right a:hover {
