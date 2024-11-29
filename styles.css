@@ -29,9 +29,9 @@ a:hover {
     justify-content: space-between;
     align-items: center;
 }
-.top-nav .logo h1 {
-    font-size: 1.5rem;
-    margin: 0;
+.top-nav .logo img {
+    max-height: 50px;
+    width: auto;
 }
 .top-nav nav ul {
     list-style: none;
